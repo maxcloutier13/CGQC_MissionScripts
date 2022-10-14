@@ -1,9 +1,8 @@
 CHVD_allowNoGrass = true;
 
-// Event to run when player is done loading
-// Shows intro screen with logo and stuff
+// Popup d'introduction
 [ "CBA_loadingScreenDone", {
-	null = execVM "scripts\initialize_player.sqf";
+	null = ["Votre nom de mission", "Votre nom"] execVM "scripts\intro.sqf";
 } ] call CBA_fnc_addEventHandler;
 
 // Only run on clients, excluding HCs
