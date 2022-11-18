@@ -1,8 +1,13 @@
 CHVD_allowNoGrass = true;
 
+// Load CGQC settings 
+#include  "cgqc_settings.sqf"
+// Load ACRE settings 
+[] spawn compile preprocessFile "scripts\set_radios.sqf";
+
 // Popup d'introduction
 [ "CBA_loadingScreenDone", {
-	null = ["Votre nom de mission", "Votre nom"] execVM "scripts\intro.sqf";
+	null = [] execVM "scripts\intro.sqf";
 } ] call CBA_fnc_addEventHandler;
 
 // Only run on clients, excluding HCs
