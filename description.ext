@@ -55,7 +55,7 @@ disabledAI = 1;
 joinUnassigned = 0;
 enableDebugConsole = 1;
 allowFunctionsLog = 1;
-onLoadMission = "<t color='#0080ff' align='left'>Unit A3 : https://units.arma3.com/unit/CGQC<br/>Groupe Steam : https://steamcommunity.com/groups/CGQC<br/>Groupe Facebook : https://www.facebook.com/groups/CGQCP</t>";
+onLoadMission = "<t color='#0080ff' align='left'>Unit A3 : units.arma3.com/unit/CGQC<br/>Discord: cgqc.ca/<br/>Groupe Facebook : facebook.com/groups/CGQCP</t>";
 
 class Header { 
 	gameType  =   Zeus ; 	// Type de jeu 
