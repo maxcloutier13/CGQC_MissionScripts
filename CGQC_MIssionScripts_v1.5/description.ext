@@ -62,12 +62,3 @@ class Header {
 	minPlayers  =   1 ; 	// nombre minimum de joueurs pris en charge par la mission 
 	maxPlayers  =  40 ; 	// nombre maximum de joueurs pris en charge par la mission 
 } ;
-
-//================ch view distance script===========
-
-#include "CHVD\dialog.hpp"
-class CfgFunctions
-{
-	#include "CHVD\CfgFunctions.hpp"
-};
-//=================================================
