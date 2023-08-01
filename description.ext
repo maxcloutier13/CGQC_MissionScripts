@@ -1,8 +1,9 @@
 
 //--  Edit absolument cette information --------------------------------
-author = "Cpl. Quelquechose";                                             
-onLoadName = "CGQC Mission"; 
-briefingName = "CGQC Mission";
+author = "Cpl. Quelquechose";    // Votre nom                                       
+onLoadName = "CGQC Mission";     // Votre nom de mission
+onLoadMission = "CGQC rocks. Mais le Zeus a oublié quelque chose";     // Quote, description ou autre.
+briefingName = "CGQC Mission";   // Nom aui apparaît dans la sélection de mission
 
 // ----------------------------------------------------------------------
 // Tu peux changer ceci si tu as des screenshots customs
@@ -41,7 +42,8 @@ overviewPicture = "\cgqc\textures\BG1.paa";
 
 
 // NO EDIT BELOW! ---------------------------------------------------------------------------------------------------------
-// Settings
+
+// MP Settings
 respawn = 3;
 Saving=0;
 respawndelay = 10;
@@ -51,13 +53,13 @@ disabledAI = 1;
 joinUnassigned = 0;
 enableDebugConsole = 1;
 allowFunctionsLog = 1;
-allowProfileGlasses = 0;
+allowProfileGlasses = 0; //Removes custom goggles
 onLoadMission = "<t color='#0080ff' align='left'>Unit A3 : units.arma3.com/unit/CGQC<br/>Discord: cgqc.ca/<br/>Groupe Facebook : facebook.com/groups/CGQCP</t>";
 
 class Header { 
 	gameType  =   Zeus ; 	// Type de jeu 
-	minPlayers  =   1 ; 	// nombre minimum de joueurs pris en charge par la mission 
-	maxPlayers  =  40 ; 	// nombre maximum de joueurs pris en charge par la mission 
+	minPlayers  =   1 ; 	// nombre minimum de joueurs 
+	maxPlayers  =  40 ; 	// nombre maximum 
 } ;
 
 // Dialogs ---------------------------------------------------------------------------------------------------------
