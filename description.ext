@@ -63,14 +63,6 @@ class Header {
 	maxPlayers  =  40 ; 	// nombre maximum 
 } ;
 
-// Dialogs ---------------------------------------------------------------------------------------------------------
-#include "\cgqc\dialogs\Common.hpp"
-#include "\cgqc\dialogs\dia_vic_gui.hpp"
-class RscTitles
-{
-    #include "\cgqc\dialogs\dia_vic_gui.hpp"
-};
-
 #include "\cgqc\modules\grad-fortifications\grad_fortifications.hpp"
 class CfgFunctions {
     #include "\cgqc\modules\grad-fortifications\cfgFunctions.hpp"
