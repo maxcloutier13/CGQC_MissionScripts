@@ -55,7 +55,6 @@ joinUnassigned = 0;
 enableDebugConsole = 1;
 allowFunctionsLog = 1;
 allowProfileGlasses = 0; //Removes custom goggles
-onLoadMission = "<t color='#0080ff' align='left'>Unit A3 : units.arma3.com/unit/CGQC<br/>Discord: cgqc.ca/<br/>Groupe Facebook : facebook.com/groups/CGQCP</t>";
 
 class Header { 
 	gameType  =   Zeus ; 	// Type de jeu 
