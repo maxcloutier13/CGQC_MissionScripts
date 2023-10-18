@@ -48,11 +48,11 @@ onLoadMission = "<t color='#0080ff' align='left'>Unit A3 : units.arma3.com/unit/
 // MP Settings
 respawn = 3;
 Saving=0;
-respawndelay = 10;
+respawndelay = 60;
 respawnTemplates[] = { "MenuPosition" };
 respawnOnStart = -1;
 disabledAI = 1;
-joinUnassigned = 0;
+joinUnassigned = 1;
 enableDebugConsole = 1;
 allowFunctionsLog = 1;
 allowProfileGlasses = 0; //Removes custom goggles
