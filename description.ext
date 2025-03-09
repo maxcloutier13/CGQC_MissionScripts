@@ -48,7 +48,7 @@ onLoadMission = "<t color='#0080ff' align='left'>Unit A3 : units.arma3.com/unit/
 // MP Settings
 respawn = 3;
 Saving=0;
-respawndelay = 60;
+respawndelay = 5;
 respawnTemplates[] = { "MenuPosition" };
 respawnOnStart = -1;
 disabledAI = 1;
